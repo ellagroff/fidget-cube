@@ -16,6 +16,6 @@ input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Happy)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    basic.showIcon(IconNames.Heart)
+    basic.showString("Are you OK?")
 })
-basic.showString("Are you OK?")
+basic.showIcon(IconNames.Heart)
