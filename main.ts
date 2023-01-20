@@ -1,3 +1,6 @@
+input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
+    basic.showString("Can I help?")
+})
 input.onButtonPressed(Button.A, function () {
     basic.showString("yes")
 })
